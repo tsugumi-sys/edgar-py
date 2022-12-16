@@ -26,5 +26,5 @@ class ArtifactRepository:
         raise NotImplementedError()
 
     @abstractmethod
-    def parse_url_to_destination(self, artifact_url: str) -> None:
+    def parse_url_to_destination(self, artifact_url: str) -> str:
         raise NotImplementedError()
